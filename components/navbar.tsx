@@ -33,6 +33,7 @@ export default function Navbar() {
           <div className="hidden md:flex iems-cene gap-6 text-sm text-zinc-600">
             <Link href="/">Home</Link>
             <Link href="/products">Products</Link>
+            <Link href="/contact">Contact</Link>
             <Link href="/deals" className="text-app-orange">
               Deals
             </Link>
