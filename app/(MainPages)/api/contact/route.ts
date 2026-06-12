@@ -3,7 +3,7 @@ import dbConnect from "@/lib/mongodb";
 import Contact from "@/models/Contacts";
 
 const N8N_WEBHOOK_URL =
-  "https://mahirejone.app.n8n.cloud/webhook-test/432bb754-9631-472d-8301-e52de1ca2860";
+  "https://mahirejone.app.n8n.cloud/webhook/432bb754-9631-472d-8301-e52de1ca2860";
 
 // GET handler - to fetch messages
 export async function GET(request: NextRequest) {
